@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as string below
-   response.end('This is a new message SWDV 660 A.Veney\n')
+   response.end('This is a new message modified for Week3 SWDV 660 Alexandra V\n')
 }).listen(3333)
 
 // Console will print the message
